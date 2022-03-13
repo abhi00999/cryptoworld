@@ -68,3 +68,15 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+Cryptocurrency Web Application
+Built a Cryptocurrency React application containing indepth data about all crypto currencies, markets and popular crypto news.
+Used React for frontend, Redux Toolkit to create Actions and Reducers, Hooks for state management.
+Used DOM manipulation, making API calls & parsing JSON data to display page contents. 
+Used Ant design to make the User Interface of the application.
+Used Coinranking API to display the Real-time cryptocurrency price and market data.
+Used Bing News Search API to search and display news about any cryptocurrency.
+Used Chartjs to display the market trend of the Cryptocurrency for different time periods.
+
+Exposure- React, Ant Design, Rapid API, Redux Toolkit, Chartjs 
