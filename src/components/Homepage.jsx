@@ -13,17 +13,13 @@ const { Title } = Typography;
 const Homepage = () => {
   const { data, isFetching } = useGetCryptosQuery(10);
   const globalStats = data?.data?.stats;
- 
+
   if (isFetching) return <Loader />;
 
   return (
     <>
       <Title level={2} className="heading">Global Crypto Stats</Title>
       <Row gutter={[32, 32]}>
-      {/* in ant design total span is 24 so span of 12 means it will cover half of screen 
-      Statistics is self closing component, and we can pass two different things
-      here we are passing title and value(realtime)*/}
-      {/* We are using dynamic values using millify function */}
         <Col span={12}><Statistic title="Total Cryptocurrencies" value={globalStats.total} /></Col>
         <Col span={12}><Statistic title="Total Exchanges" value={millify(globalStats.totalExchanges)} /></Col>
         <Col span={12}><Statistic title="Total Market Cap:" value={`$${millify(globalStats.totalMarketCap)}`} /></Col>

@@ -12,7 +12,8 @@ const cryptoApiHeaders = {
 };
 const createRequest = (url) => ({ url, headers: cryptoApiHeaders });
 
-//passing options inside an object
+// passing options inside an object
+
 export const cryptoApi = createApi({
   reducerPath: 'cryptoApi',
   baseQuery: fetchBaseQuery({ baseUrl: 'https://coinranking1.p.rapidapi.com' }),

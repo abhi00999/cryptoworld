@@ -32,9 +32,6 @@ const Cryptocurrencies = ({ simplified }) => {
           />
         </div>
       )}
-      {/* here xs means extra small devices, sm means small devices and lg means large devices
-      also 24 means full width so on mobile devices the card will occupy full width 
-      on tabs there will be two cards and on large devices there will be 4 such cards */}
       <Row gutter={[32, 32]} className="crypto-card-container">
         {cryptos?.map((currency) => (
           <Col

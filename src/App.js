@@ -11,25 +11,18 @@ const App = () => (
       <Navbar />
     </div>
     <div className="main">
-      {/* Layout is a component from ant design, not a
-      self closing component, it basically lays everything down */}
       <Layout>
         <div className="routes">
-        {/* Switch component is from react-router-dom,
-        it allows us to have multiple routes  */}
           <Switch>
-          {/* below route will render the homepage component */}
             <Route exact path="/">
               <Homepage />
             </Route>
-          {/* below route will render exchanges component */}
             <Route exact path="/exchanges">
               <Exchanges />
             </Route>
             <Route exact path="/cryptocurrencies">
               <Cryptocurrencies />
             </Route>
-            {/* colon means that coinId will be dynamic */}
             <Route exact path="/crypto/:coinId">
               <CryptoDetails />
             </Route>
@@ -48,7 +41,6 @@ const App = () => (
         </Typography.Title>
         <Space>
           <Link to="/">Home</Link>
-          {/* <Link to="/exchanges">Exchanges</Link> */}
           <Link to="/news">News</Link>
         </Space>
       </div>

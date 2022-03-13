@@ -69,14 +69,26 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
+Layout is a component from ant design, not a self closing component, it basically lays everything down
+colon means that coinId will be dynamic
+Switch component is from react-router-dom, it allows us to have multiple routes
 
-Cryptocurrency Web Application
-Built a Cryptocurrency React application containing indepth data about all crypto currencies, markets and popular crypto news.
+In ant design total span is 24 so span of 12 means it will cover half of screen 
+Statistics is self closing component, and we can pass two different things
+here we are passing title and value(realtime)
+ We are using dynamic values using millify function
+
+xs means extra small devices, sm means small devices and lg means large devices
+also 24 means full width so on mobile devices the card will occupy full width 
+on tabs there will be two cards and on large devices there will be 4 such cards 
+
+Cryptocurrency Web Application:
+Built a Cryptocurrency React application containing in-depth data about cryptocurrencies, markets, and popular crypto news.
 Used React for frontend, Redux Toolkit to create Actions and Reducers, Hooks for state management.
 Used DOM manipulation, making API calls & parsing JSON data to display page contents. 
 Used Ant design to make the User Interface of the application.
 Used Coinranking API to display the Real-time cryptocurrency price and market data.
 Used Bing News Search API to search and display news about any cryptocurrency.
-Used Chartjs to display the market trend of the Cryptocurrency for different time periods.
+Used Chartjs to display the market trend of Cryptocurrency for different time duration.
 
 Exposure- React, Ant Design, Rapid API, Redux Toolkit, Chartjs 

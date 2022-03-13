@@ -13,6 +13,7 @@ import 'antd/dist/antd.css';
 // we are wrapping our app with router and provider(where we set store variable = {store})
 // by doing this every component inside our App will have access to
 // the store variable
+
 ReactDOM.render(
   <React.StrictMode>
     <Router>
@@ -23,3 +24,4 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root'),
 );
+
